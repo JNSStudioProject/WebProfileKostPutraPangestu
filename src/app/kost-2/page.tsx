@@ -242,7 +242,7 @@ export default function Kost2() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <div className="footer-grid" style={{ gridTemplateColumns: '1.5fr 1fr 1fr' }}>
+          <div className="footer-grid">
             {/* Column 1 */}
             <div>
               <div className="logo" style={{ color: 'var(--text-main)' }}>KOST PUTRA <span className="text-accent">PANGESTU</span></div>
