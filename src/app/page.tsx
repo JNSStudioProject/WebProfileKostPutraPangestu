@@ -162,17 +162,6 @@ export default function Home() {
               </div>
             </div>
             <div className="bento-item">
-              <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEw_bERNEXr8pEYqjXeoc6NIDkjSDyIIJ8k3nJNgH8HFB0FB81QBrMwRKJ33AZMnKQY9K44n-b0_zvs1HCpYIlH0HNfNPaZhrbU9l70iYMacYGgE1aJ8YYTirXAps7wHaoiiV685Q=s1360-w1360-h1020-rw" alt="WiFi Ngebut" className="bento-bg" />
-              <div className="bento-overlay">
-                <div>
-                  <div className="bento-badge">⭐ Free Service</div>
-                </div>
-                <h3 className="bento-title">Laundry Sprei Anti-Ribet</h3>
-                <p>Malas nyuci? Tenang aja! Kami sediakan layanan cuci dan ganti sprei gratis biar kamu tinggal rebahan nyaman tanpa pusing urusan cucian.</p>
-              </div>
-            </div>
-
-            <div className="bento-item">
               <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtjOerwfi248K8_3lwz4mGx0wJAF2U5usdjn98c3cASiXa2yR0_pYjwyzeau5QMTTuuedCC2zYm3-PQVRJKW7H1Vdjs7E3-jzuZKOtjt2vtHaBYruDQatNT3HgfhzfKAjaB4Nn=s1360-w1360-h1020-rw" alt="Area Parkir" className="bento-bg" />
               <div className="bento-overlay" style={{ alignItems: 'flex-start', textAlign: 'left' }}>
                 <div>
@@ -180,6 +169,17 @@ export default function Home() {
                 </div>
                 <h3 className="bento-title">Area Parkir Ekstra Luas</h3>
                 <p>Kapasitas besar untuk menyimpan tunggangan besi dan motor kesayanganmu dengan sangat aman.</p>
+              </div>
+            </div>
+
+            <div className="bento-item">
+              <img src="/images/free_service.jpeg" alt="Free Service" className="bento-bg" />
+              <div className="bento-overlay">
+                <div>
+                  <div className="bento-badge">⭐ Free Service</div>
+                </div>
+                <h3 className="bento-title">Laundry Sprei Anti-Ribet</h3>
+                <p>Malas nyuci? Tenang aja! Kami sediakan layanan cuci dan ganti sprei gratis biar kamu tinggal rebahan nyaman tanpa pusing urusan cucian.</p>
               </div>
             </div>
           </div>
@@ -438,8 +438,8 @@ export default function Home() {
             <div>
               <h4 className="footer-title">Lokasi Kost 1.0</h4>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1rem', lineHeight: '1.4' }}>
-                📍 Rumah Kost Putra Pangestu,<br/>
-                F9HC+92W, Jl. Kamboja, Simpang Baru,<br/>
+                📍 Rumah Kost Putra Pangestu,<br />
+                F9HC+92W, Jl. Kamboja, Simpang Baru,<br />
                 Tampan, Pekanbaru City, Riau 28292
               </p>
               <div style={{ width: '100%', height: '180px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
@@ -451,8 +451,8 @@ export default function Home() {
             <div>
               <h4 className="footer-title">Lokasi Kost 2.0</h4>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1rem', lineHeight: '1.4' }}>
-                📍 Rumah Kost Putra Pangestu 2.0,<br/>
-                Jl. Tiung Ujung 52 8,<br/>
+                📍 Rumah Kost Putra Pangestu 2.0,<br />
+                Jl. Tiung Ujung 52 8,<br />
                 Pekanbaru
               </p>
               <div style={{ width: '100%', height: '180px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
@@ -460,7 +460,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
           <div className="footer-bottom">
             © 2024 Rumah Kost Putra Pangestu. Seluruh hak cipta dilindungi.
           </div>

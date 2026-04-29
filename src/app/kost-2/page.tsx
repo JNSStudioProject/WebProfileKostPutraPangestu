@@ -55,11 +55,11 @@ export default function Kost2() {
       <section className="section section-bg-dark" style={{ paddingTop: '40px' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'start' }}>
-            
+
             {/* Left Column: Photos & Facilities */}
             <div>
               <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '2px solid var(--primary-color)', marginBottom: '2rem' }}>
-                <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDPZPRuoz5wxrQ0BG39mJkFovA8Z4Iv3_E2EpjtB6Qg1WT4CTnyXY3pF7QSSF7mCeeV9fu29NLcSG_yOci6tM5WoADl5zv9Pr27DAUTx4MecT4NGiqY2q4rNiCqMYL9q4TYhEl=s1360-w1360-h1020-rw" alt="Kamar Kost 2.0" style={{ width: '100%', display: 'block' }} />
+                <img src="/images/kamar-kost-2.jpeg" alt="Kamar Kost 2.0" style={{ width: '100%', display: 'block' }} />
               </div>
 
               <div className="card" style={{ marginBottom: '2rem' }}>
@@ -69,13 +69,12 @@ export default function Kost2() {
                   <li className="flex items-center gap-2"><span>☁️</span> Bantal Guling</li>
                   <li className="flex items-center gap-2"><span>📺</span> TV</li>
                   <li className="flex items-center gap-2"><span>🧺</span> Sprei</li>
-                  <li className="flex items-center gap-2"><span>🍳</span> Dapur</li>
                   <li className="flex items-center gap-2"><span>❄️</span> AC</li>
                   <li className="flex items-center gap-2"><span>🚪</span> Lemari</li>
-                  <li className="flex items-center gap-2"><span>🪑</span> Meja kursi</li>
+                  <li className="flex items-center g  ap-2"><span>🪑</span> Meja kursi</li>
                 </ul>
               </div>
-              
+
               <div className="card">
                 <h3 className="mb-4 text-primary" style={{ marginBottom: '1rem' }}>Harga & Sistem Bayar</h3>
                 <div style={{ padding: '1rem', background: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
@@ -90,18 +89,18 @@ export default function Kost2() {
               <div className="card">
                 <h3 className="mb-4 text-primary" style={{ marginBottom: '1rem' }}>Lokasi Markas 2.0</h3>
                 <p style={{ color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
-                  📍 Rumah Kost Putra Pangestu 2.0,<br/>
-                  Jl. Tiung Ujung 52 8,<br/>
+                  📍 Rumah Kost Putra Pangestu 2.0,<br />
+                  Jl. Tiung Ujung 52 8,<br />
                   Pekanbaru
                 </p>
                 <div style={{ width: '100%', height: '300px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
-                  <iframe 
-                    src="https://maps.google.com/maps?q=Jl+Tiung+Ujung+52+8+Pekanbaru&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0 }} 
-                    allowFullScreen={false} 
-                    loading="lazy" 
+                  <iframe
+                    src="https://maps.google.com/maps?q=Jl+Tiung+Ujung+52+8+Pekanbaru&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen={false}
+                    loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
                   </iframe>
                 </div>
@@ -147,6 +146,94 @@ export default function Kost2() {
         </div>
       </section>
 
+      {/* Galeri Kost */}
+      <section className="section section-bg-pattern" style={{ padding: '60px 0' }}>
+
+        <div className="container">
+          <h2 className="text-center mb-8" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            Galeri Markas 2.0
+            <div style={{ height: '4px', width: '80px', background: 'var(--primary-color)', marginTop: '8px' }}></div>
+          </h2>
+        </div>
+        <div className="marquee-container">
+          <div className="marquee-content">
+            {/* Original Set */}
+            <div className="marquee-card">
+              <img src="/images/tampak_depan-2.jpeg" alt="Tampak Depan" />
+              <div className="marquee-desc">
+                <h4>Tampak Depan</h4>
+                <p>Bangunan kost yang aman dan estetik.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/kamar_kost2.jpeg" alt="kamar_kost2" />
+              <div className="marquee-desc">
+                <h4>Kamar Kost </h4>
+                <p>Area bersih untuk kenyamanan penghuni.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/lukisan_kost2.jpeg" alt="Lukisan" />
+              <div className="marquee-desc">
+                <h4>Lukisan</h4>
+                <p>Lukisan yang indah untuk kenyamanan penghuni.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/Toilet_kost2.jpeg" alt="Toilet" />
+              <div className="marquee-desc">
+                <h4>Toilet / Kamar Mandi</h4>
+                <p>Kamar mandi yang bersih dan nyaman.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/meja_kursi_kost2.jpeg" alt="Meja & Kuris" />
+              <div className="marquee-desc">
+                <h4>Meja & Kuris</h4>
+                <p>Meja dan kursi yang nyaman untuk belajar dan bekerja.</p>
+              </div>
+            </div>
+
+            {/* Duplicated Set for Infinite Loop */}
+            <div className="marquee-card">
+              <img src="/images/tampak_depan-2.jpeg" alt="Tampak Depan" />
+              <div className="marquee-desc">
+                <h4>Tampak Depan</h4>
+                <p>Bangunan kost yang aman dan estetik.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/kamar_kost2.jpeg" alt="kamar_kost2" />
+              <div className="marquee-desc">
+                <h4>Kamar Kost </h4>
+                <p>Area bersih untuk kenyamanan penghuni.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/lukisan_kost2.jpeg" alt="Lukisan" />
+              <div className="marquee-desc">
+                <h4>Lukisan</h4>
+                <p>Lukisan yang indah untuk kenyamanan penghuni.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/Toilet_kost2.jpeg" alt="Toilet" />
+              <div className="marquee-desc">
+                <h4>Toilet / Kamar Mandi</h4>
+                <p>Kamar mandi yang bersih dan nyaman.</p>
+              </div>
+            </div>
+            <div className="marquee-card">
+              <img src="/images/meja_kursi_kost2.jpeg" alt="Meja & Kuris" />
+              <div className="marquee-desc">
+                <h4>Meja & Kuris</h4>
+                <p>Meja dan kursi yang nyaman untuk belajar dan bekerja.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="footer">
         <div className="container">
@@ -184,8 +271,8 @@ export default function Kost2() {
             <div>
               <h4 className="footer-title">Lokasi Kost 1.0</h4>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1rem', lineHeight: '1.4' }}>
-                📍 Rumah Kost Putra Pangestu,<br/>
-                F9HC+92W, Jl. Kamboja, Simpang Baru,<br/>
+                📍 Rumah Kost Putra Pangestu,<br />
+                F9HC+92W, Jl. Kamboja, Simpang Baru,<br />
                 Tampan, Pekanbaru City, Riau 28292
               </p>
               <div style={{ width: '100%', height: '180px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
@@ -197,8 +284,8 @@ export default function Kost2() {
             <div>
               <h4 className="footer-title">Lokasi Kost 2.0</h4>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1rem', lineHeight: '1.4' }}>
-                📍 Rumah Kost Putra Pangestu 2.0,<br/>
-                Jl. Tiung Ujung 52 8,<br/>
+                📍 Rumah Kost Putra Pangestu 2.0,<br />
+                Jl. Tiung Ujung 52 8,<br />
                 Pekanbaru
               </p>
               <div style={{ width: '100%', height: '180px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
@@ -206,7 +293,7 @@ export default function Kost2() {
               </div>
             </div>
           </div>
-          
+
           <div className="footer-bottom">
             © 2024 Rumah Kost Putra Pangestu. Seluruh hak cipta dilindungi.
           </div>
