@@ -65,13 +65,18 @@ export default function Kost2() {
               <div className="card" style={{ marginBottom: '2rem' }}>
                 <h3 className="mb-4 text-primary" style={{ marginBottom: '1rem' }}>Fasilitas & Isi Kamar</h3>
                 <ul style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', color: 'var(--text-main)', fontSize: '1.1rem' }}>
-                  <li className="flex items-center gap-2"><span>🛏️</span> Spring Bed</li>
-                  <li className="flex items-center gap-2"><span>☁️</span> Bantal Guling</li>
-                  <li className="flex items-center gap-2"><span>📺</span> TV</li>
+                  <li className="flex items-center gap-2"><span>🛏️</span> Spring Bed + Sprei</li>
+                  <li className="flex items-center gap-2"><span>☁️</span> Bantal & Guling</li>
+                  <li className="flex items-center gap-2"><span>🛜</span> Wifi</li>
+                  <li className="flex items-center gap-2"><span>📺</span> Smart TV</li>
                   <li className="flex items-center gap-2"><span>🧺</span> Sprei</li>
-                  <li className="flex items-center gap-2"><span>❄️</span> AC</li>
+                  <li className="flex items-center gap-2"><span>❄️</span> Full AC</li>
                   <li className="flex items-center gap-2"><span>🚪</span> Lemari</li>
-                  <li className="flex items-center g  ap-2"><span>🪑</span> Meja kursi</li>
+                  <li className="flex items-center gap-2"><span>🪑</span> Meja & kursi</li>
+                  <li className="flex items-center gap-2"><span>🏍️</span> Parkir Motor</li>
+                  <li className="flex items-center gap-2"><span>🔪</span> Dapur</li>
+                  <li className="flex items-center gap-2"><span>🛁</span> Kamar Mandi Dalam</li>
+                  <li className="flex items-center gap-2"><span>🔐</span> Pagar</li>
                 </ul>
               </div>
 
