@@ -62,8 +62,8 @@ export default function Home() {
               <div className="search-field">
                 <span className="search-label">Durasi Sewa</span>
                 <select className="search-input">
-                  <option>Bulanan (Misi Singkat)</option>
-                  <option>Tahunan (Misi Jangka Panjang)</option>
+                  <option>Bulanan (Sewa Jangka Pendek)</option>
+                  <option>Tahunan (Sewa Jangka Panjang)</option>
                 </select>
               </div>
               <button className="btn btn-primary"> Cari Kamar</button>
@@ -147,7 +147,7 @@ export default function Home() {
                   <div className="bento-badge">⭐ Perlindungan Ekstra</div>
                 </div>
                 <h3 className="bento-title">Sistem Keamanan 24 Jam</h3>
-                <p>Dilengkapi dengan CCTV di berbagai sudut. Basecamp bebas dari ancaman musuh dan pencuri.</p>
+                <p>Dilengkapi dengan CCTV di berbagai sudut. Lingkungan kost bebas dari ancaman pencuri.</p>
               </div>
             </div>
 
@@ -212,7 +212,7 @@ export default function Home() {
           <div className="about-grid" style={{ marginTop: '5rem' }}>
             <div>
               <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', border: '2px solid var(--primary-color)' }}>
-                <img src="https://i.pinimg.com/236x/91/d5/52/91d552de17713d3d9320514851f20780.jpg" alt="Markas Pahlawan" style={{ width: '100%', display: 'block', opacity: 0.8 }} />
+                <img src="https://i.pinimg.com/236x/91/d5/52/91d552de17713d3d9320514851f20780.jpg" alt="Kost Pangestu" style={{ width: '100%', display: 'block', opacity: 0.8 }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(45deg, rgba(229,57,70,0.3), transparent)' }}></div>
               </div>
             </div>
@@ -220,7 +220,7 @@ export default function Home() {
               <h3 className="text-primary mb-2">Inisiatif Kost Pangestu</h3>
               <h2 style={{ fontSize: '3.5rem', lineHeight: 1 }}>Sewa Di Sini</h2>
               <p className="mb-6" style={{ fontSize: '1.1rem' }}>
-                Kamu butuh tempat yang nyaman untuk memulihkan energi setelah seharian 'bertarung' di kampus atau tempat kerja. Kami menyediakan lingkungan yang tenang, aman, dan sangat suportif untuk para pemuda luar biasa.
+                Kamu butuh tempat yang nyaman untuk memulihkan energi setelah seharian beraktivitas di kampus atau tempat kerja. Kami menyediakan lingkungan yang tenang, aman, dan sangat suportif untuk para pemuda luar biasa.
               </p>
               <button className="btn btn-secondary " style={{ marginTop: '20px' }}>Cek Ketersediaan Kamar</button>
             </div>
@@ -276,7 +276,7 @@ export default function Home() {
       <section className="section" style={{ padding: '60px 0' }}>
         <div className="container">
           <h2 className="text-center mb-8" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            Kegiatan Rutin Markas
+            Kegiatan Rutin Kost
             <div style={{ height: '4px', width: '80px', background: 'var(--primary-color)', marginTop: '8px' }}></div>
           </h2>
         </div>
@@ -362,7 +362,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="review-quote">"</div>
-              <p className="review-text">Kostnya nyaman banget! Fasilitas lengkap, WiFi-nya kencang banget buat mabar dan ngerjain tugas. Serasa punya markas sendiri yang aman dan tenang.</p>
+              <p className="review-text">Kostnya nyaman banget! Fasilitas lengkap, WiFi-nya kencang banget buat mabar dan ngerjain tugas. Serasa punya tempat sendiri yang aman dan tenang.</p>
             </div>
             <div className="review-card">
               <div className="reviewer">
@@ -409,11 +409,11 @@ export default function Home() {
             <div>
               <div className="logo" style={{ color: 'var(--text-main)' }}>KOST PUTRA <span className="text-accent">PANGESTU</span></div>
               <p className="footer-desc">
-                Markas kost putra terbaik di Pekanbaru. Memberikan kenyamanan, keamanan, dan kedamaian seperti pahlawan yang butuh tempat istirahat elit.
+                Tempat kost putra terbaik di Pekanbaru. Memberikan kenyamanan, keamanan, dan kedamaian bagi Anda yang butuh tempat istirahat elit.
               </p>
 
               <div className="mt-6">
-                <h4 className="footer-title" style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Hubungi Markas</h4>
+                <h4 className="footer-title" style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Hubungi Kami</h4>
                 <ul className="footer-links">
                   <li>
                     <a href="https://wa.me/628127599146" target="_blank" rel="noreferrer" className="flex items-center gap-2">

@@ -45,7 +45,7 @@ export default function Kost2() {
           <div className="hero-content" style={{ width: '100%', textAlign: 'center', paddingRight: 0 }}>
             <h1>Kost Putra Pangestu <span className="text-accent">2.0</span></h1>
             <p className="hero-desc" style={{ margin: '1.5rem auto 0' }}>
-              Markas modern dengan nuansa elit dan bersih. Pilihan sempurna untuk menunjang aktivitas keseharianmu dengan fasilitas premium.
+              Kost modern dengan nuansa elit dan bersih. Pilihan sempurna untuk menunjang aktivitas keseharianmu dengan fasilitas premium.
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function Kost2() {
             {/* Right Column: Location & Rules */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
               <div className="card">
-                <h3 className="mb-4 text-primary" style={{ marginBottom: '1rem' }}>Lokasi Markas 2.0</h3>
+                <h3 className="mb-4 text-primary" style={{ marginBottom: '1rem' }}>Lokasi Kost 2.0</h3>
                 <p style={{ color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
                   📍 Rumah Kost Putra Pangestu 2.0,<br />
                   Jl. Tiung Ujung 52 8,<br />
@@ -156,7 +156,7 @@ export default function Kost2() {
 
         <div className="container">
           <h2 className="text-center mb-8" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            Galeri Markas 2.0
+            Galeri Kost 2.0
             <div style={{ height: '4px', width: '80px', background: 'var(--primary-color)', marginTop: '8px' }}></div>
           </h2>
         </div>
@@ -247,11 +247,11 @@ export default function Kost2() {
             <div>
               <div className="logo" style={{ color: 'var(--text-main)' }}>KOST PUTRA <span className="text-accent">PANGESTU</span></div>
               <p className="footer-desc">
-                Markas kost putra terbaik di Pekanbaru. Memberikan kenyamanan, keamanan, dan kedamaian seperti pahlawan yang butuh tempat istirahat elit.
+                Tempat kost putra terbaik di Pekanbaru. Memberikan kenyamanan, keamanan, dan kedamaian bagi Anda yang butuh tempat istirahat elit.
               </p>
 
               <div className="mt-6">
-                <h4 className="footer-title" style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Hubungi Markas</h4>
+                <h4 className="footer-title" style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Hubungi Kami</h4>
                 <ul className="footer-links">
                   <li>
                     <a href="https://wa.me/628127599146" target="_blank" rel="noreferrer" className="flex items-center gap-2">

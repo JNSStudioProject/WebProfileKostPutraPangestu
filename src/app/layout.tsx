@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'HeroHire - Elevate Your Security',
-  description: 'Hire vetted superhumans for your most critical missions with HeroHire.',
+  title: 'Kost Putra Pangestu',
+  description: 'Tempat kost ideal dengan fasilitas lengkap untuk mendukung produktivitas dan kenyamanan beristirahatmu di Pekanbaru.',
 };
 
 export default function RootLayout({
